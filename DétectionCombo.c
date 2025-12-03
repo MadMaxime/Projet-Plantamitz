@@ -6,8 +6,10 @@
 
 
 // détection rectangle
-int testRectangle(char tab[N][M], int i, int j)
+int testRectangle(char tab[N][M])
 {
+    int i;
+    int j;
     int L = 1;      // largeur
     int h = 1;      // hauteur
     int x;
@@ -130,3 +132,4 @@ int DetectionCombo(char tab[N][M])
     int j;
 
 }
+
