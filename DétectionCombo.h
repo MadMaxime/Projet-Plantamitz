@@ -142,24 +142,6 @@ int testRectangle(char tab[N][M], int i, int j)
     return 1;       // rectangle détecté
 }
 
-// détection rectangle dans notre tableau
-void compteur ()
-{
-    char tab[N][M];
-    int cptRect = 0;
-
-    for (int i = 0; i<N; i++)
-    {
-        for (int j = 0; j<M; j++)
-        {
-            if (testRectangle(tab, i, j))
-            {
-                cptRect++;
-            }
-        }
-    }
-}
-
 // détection combo6
 int testcombo6(char tab[N][M])
 {
